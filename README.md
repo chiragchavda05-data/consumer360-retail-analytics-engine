@@ -29,20 +29,25 @@ Future stages will include advanced analytics and visualization.
 ---
 
 ## Repository Structure
+```
 consumer360-retail-analytics-engine/
 │
 ├── sql/
-│ ├── 01_staging_table.sql
-│ ├── 02_dimension_tables.sql
-│ ├── 03_fact_table.sql
-│ └── 04_constraints.sql
+│   ├── 01_staging_table.sql
+│   ├── 02_dimension_tables.sql
+│   ├── 02_dimension_tables.sql
+│   ├── 03_fact_table.sql
+│   └── 04_constraints.sql
 │
 ├── data/
+│   └── (raw files will be added later)
+│
 ├── docs/
-│ └── project_overview.md
+│   └── project_overview.md
 │
 ├── README.md
-└── .gitignor
+└── .gitignore
+```
 
 ---
 
