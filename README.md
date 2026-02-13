@@ -32,21 +32,24 @@ Future stages will include advanced analytics and visualization.
 ```
 consumer360-retail-analytics-engine/
 │
-├── sql/
-│   ├── 01_staging_table.sql
-│   ├── 02_dimension_tables.sql
-│   ├── 02_dimension_tables.sql
-│   ├── 03_fact_table.sql
-│   └── 04_constraints.sql
-│
 ├── data/
-│   └── (raw files will be added later)
+│   └── retail.csv
+│
+├── sql/
+│   ├── 01_create_schema.sql
+│   ├── 02_create_dimension_tables.sql
+│   ├── 03_create_fact_table.sql
+│   ├── 04_create_staging.sql
+│   ├── 05_load_dimensions.sql
+│   ├── 06_load_fact.sql
+│   ├── 07_analysis_queries.sql
 │
 ├── docs/
 │   └── project_overview.md
 │
 ├── README.md
 └── .gitignore
+
 ```
 
 ---
