@@ -31,10 +31,9 @@ Future stages will include advanced analytics and visualization.
 ## Repository Structure
 ```
 consumer360-retail-analytics-engine/
-│
 ├── data/
 │   └── retail.csv
-│
+
 ├── sql/
 │   ├── 01_create_schema.sql
 │   ├── 02_create_dimension_tables.sql
@@ -43,10 +42,13 @@ consumer360-retail-analytics-engine/
 │   ├── 05_load_dimensions.sql
 │   ├── 06_load_fact.sql
 │   ├── 07_analysis_queries.sql
+
+├── python/              ✅ NEW
+│   ├── 01_db_connection.py
+│   ├── 02_rfm_analysis.py
+│   ├── 03_clv_model.py   (later)
 │
-├── docs/
-│   └── project_overview.md
-│
+├── requirements.txt     ✅ NEW
 ├── README.md
 └── .gitignore
 
@@ -62,4 +64,5 @@ consumer360-retail-analytics-engine/
 ---
 
 ## Development Status
-Stage 1 (SQL – Data Modeling): ongoing
+Stage 1 (SQL – Data Modeling): Completed
+Stage 2 (Python - Rfm Analysis): Ongoing
