@@ -1,0 +1,12 @@
+# secrets
+python/config.py
+python/.env
+
+data/*_results.csv
+data/cohort_retention.csv
+
+# python cache
+__pycache__/
+*.pyc
+.venv/
+venv/
