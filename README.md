@@ -187,10 +187,9 @@ cd consumer360-retail-analytics-engine
 This repo does NOT include real passwords.
 Create your local config file:
 
-Copy Python/config.example.py
----
-Rename it to Python/config.py
----
+-Copy Python/config.example.py
+-Rename it to Python/config.py
+
 Update your DB password locally
 
 ### 3) Install Python dependencies
@@ -208,19 +207,19 @@ python run_pipeline.py
 
 Open:
 Rfm Analysis.pbix
----
+
 Then:
 Home → Refresh All
----
+
 
 
 ## 🚧 Development Status
-Stage 1 (SQL – Data Modeling): Completed ✅
-Stage 2 (Python - Rfm Analysis): Completed ✅
-Stage 3 (Power Bi - Dashboard): Completed ✅
-Stage 4 (Automataion & Validation):Completed ✅
+-Stage 1 (SQL – Data Modeling): Completed ✅
+-Stage 2 (Python - Rfm Analysis): Completed ✅
+-Stage 3 (Power Bi - Dashboard): Completed ✅
+-Stage 4 (Automataion & Validation):Completed ✅
 
-Project Status : **COMPLETED** ✅
+-Project Status : **COMPLETED** ✅
 
 ## 🧑‍💻 Author
 **Chirag Chavda**
