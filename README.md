@@ -44,7 +44,8 @@ consumer360-retail-analytics-engine/
 │ ├── Architecture.md
 │ ├── User_Guide.md
 │ ├── Insights_Summary.md
-│ └── Screenshots.md
+│ └── Screenshots
+│       └──   All dashboard and pipeline screenshots are available in the **/screenshots** folder.
 │
 ├── sql/
 │   ├── 01_create_schema.sql
